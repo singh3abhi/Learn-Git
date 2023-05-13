@@ -9,7 +9,7 @@ It will not overwrite things that are already there.
 The primary reason for rerunning git init is to pick up newly added templates.
 _/
 
-2. `Workubg Area` -> there can be a bunch of files that are not currently handled by git.
+2. `Working Area` -> there can be a bunch of files that are not currently handled by git.
    It means that changes done or to be done in those files are not managed by git yet.
    A file which is in working area is considered to be not in the staging area. When we do 'git status'
    and we see a bunch of 'untracked files' then these are actually called to be in the working area.
@@ -25,8 +25,8 @@ _/
 
 6. `git rm --cached <file>` -> moves whole file back from staging area to working area.
 
-7 `commit` -> Commit is aa particular version of th e project. It captures a snapshot of the project's staged
-changes and created a version out of it.
+7. `commit` -> Commit is aa particular version of th e project. It captures a snapshot of the project's staged
+   changes and created a version out of it.
 
 8. `git commit -m <message>`-> registers staging changes to a commit
 
@@ -40,14 +40,14 @@ changes and created a version out of it.
 11. `git restore --staged <file>` -> it removes file from changes from staging area to the working area.
     this only works if changes are in your staging area
 
-12. Diff between git rm and git restore
+12. `Diff between git rm and git restore`
     ans: if you want to move the whole file back to the untracked state, then we do git rm, otherwise if we
     just want the changes to be moved in working area or staging area then we git restore.
 
 13. `git diff commit1 commit2` -> gives the difference of all file changes between two commits
 
-14 `git commit -m "<your commit message>"` -> If we want to avoid opening a text editor like vim/nano to
-add commit message we can use this following command
+14. `git commit -m "<your commit message>"` -> If we want to avoid opening a text editor like vim/nano to
+    add commit message we can use this following command
 
 15. `git remote` -> list down all the remote connection names
 
@@ -79,28 +79,28 @@ Note: The name of the remote connection is always used to establish communicatio
     - git pull
     - git push
 
-23. Merge conflicts are a very common scnario
+23. `Merge conflicts are a very common scnario`
+    merge conflicts can occur if multiple people try to make changes to the same file, and then collaborate
 
-merge conflicts can occur if multiple people try to make changes to the same file, and then collaborate
+24. `clear` -> Clears the bash command line.
 
-3. `clear` -> Clears the bash command line.
+25. `code .` -> Opens the VS Code in that directory.
 
-4. `code .` -> Opens the VS Code in that directory.
+26. `touch new.txt` -> Create a new file new.txt.
 
-5. `touch new.txt` -> Create a new file new.txt.
+27. `ls` -> Shows the list of files in the directory.
+28. `ls -a` -> Shows all the files including hidden ones.
 
-6. `ls` -> Shows the list of files in the directory.
-7. `ls -a` -> Shows all the files including hidden ones.
+29. `cd Folder` -> This is used to enter the Folder directory.
 
-8. `cd Folder` -> This is used to enter the Folder directory.
-9. `cd ..`-> Goes in previous directory.
+30. `cd ..`-> Goes in previous directory.
 
-10. `mkdir A` -> This will create a folder names 'A'.
+31. `mkdir A` -> This will create a folder names 'A'.
 
-11. `mkdir A B` -> This will create two folders names 'A' & 'B'.
+32. `mkdir A B` -> This will create two folders names 'A' & 'B'.
 
-12. `mkdir 'New Folder` -> This will create a single folder named 'New Folder'.
+33. `mkdir 'New Folder` -> This will create a single folder named 'New Folder'.
 
-13. `echo 'Abhinav Singh` > new.txt -> This will save Abhinav Singh in new.txt.
+34. `echo 'Abhinav Singh` > new.txt -> This will save Abhinav Singh in new.txt.
 
-14. `rm -rf .git` -> Deletes the git repository(.git).
+35. `rm -rf .git` -> Deletes the git repository(.git).
